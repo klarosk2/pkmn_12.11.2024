@@ -69,6 +69,7 @@ main{
 }
 
 .description{
+    width: 100vm;
     grid-column: 1/7;
     place-self: start;
     color: var(--secondary-color);
@@ -85,14 +86,14 @@ main{
 }
 
 .action{
-    grid-column: 7/-1;
     place-self: start end;
+    grid-column: 7/-1;
     height: 100px;
     width: 411px;
     background-color: var(--secondary-color);
     color: #fff;
-    text-decoration: none;
     font-size: 3rem;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,4 +104,12 @@ main{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.footer_text{
+    grid-column: 1/-1;
+    place-self: center;
+    margin-bottom: 24px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+
 }
